@@ -1,0 +1,47 @@
+
+<div class="row row-cols-8 center">
+    <div class="hard col-sm-6 col-md-6 col-lg-5">
+        <h2>HARD  SKILLS</h2>
+        <circle-progress class="circle col-xs-6 col-sm-6 col-md-6 col-lg-4" *ngFor= "let hard of hardSkills"
+        [radius]="50"
+        [backgroundPadding]="0"
+        [percent]="hard.porcentaje"
+        [radius]="100"
+        [imageSrc]="hard.imgHard"
+        [showImage]="true"
+        [imageHeight]="100"
+        [imageWidth]="100"
+        [showUnits]="false"
+        [showSubtitle]="false"
+        [outerStrokeWidth]="12"
+        [innerStrokeWidth]="6"
+        [outerStrokeColor]="'rgba(5,208,185,1)'"
+        [innerStrokeColor]="'#8d3290'"
+        [animation]="true"
+        [animationDuration]="hard.porcentaje * 8"
+        >
+        </circle-progress >
+    </div>
+    <div class="soft col-sm-6 col-md-6 col-lg-5 ">
+        <h2>SOFT  SKILLS</h2>
+        <circle-progress class="circle col-xs-6 col-sm-6 col-md-6 col-lg-4" *ngFor = "let soft of softSkills"
+        [backgroundPadding]="0"
+        [percent]="soft.porcentaje"
+        [radius]="100"
+        [imageSrc]="soft.imgSoft"
+        [showImage]="true"
+        [imageHeight]="100"
+        [imageWidth]="100"
+        [showUnits]="false"
+        [showSubtitle]="false"
+        [outerStrokeWidth]="12"
+        [innerStrokeWidth]="6"
+        [outerStrokeColor]="'#ff1b82'"
+        [innerStrokeColor]="'#1338BE'"
+        [animation]="true"
+        [animationDuration]="soft.porcentaje * 10"
+        >
+        </circle-progress>      
+    </div>
+
+</div>

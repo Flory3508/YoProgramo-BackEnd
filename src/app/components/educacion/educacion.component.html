@@ -1,0 +1,20 @@
+<div class="container">
+    <h2>EDUCACIÓN</h2>
+</div>
+<div *ngFor = "let curso of cursos">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <header role="work-title">
+                <img [src]= "curso.img" >
+            </header>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-3 col-xl-3">
+            <section>
+                <h2>{{ curso.titulo }}</h2>
+                <P>{{ curso.descripcion}}</P>
+                <p>Fecha de finalizacion: {{ curso.fin }}</p>
+                <p>Certificado: {{ curso.certificado }} </p>
+            </section>
+            </div>
+    </div>
+    <hr>

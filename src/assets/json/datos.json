@@ -1,0 +1,303 @@
+{ 
+  "nombre": "María Florencia",
+  "apellido": "Gala",
+  "titulo": "Full Stack Development",
+  "introduccion": "Éste es mi portfolio,aquí encontrarás mis proyectos , información personal y de contacto, espero que lo disfrutes",
+  "imgHome":"../../../assets/images-home/image-1.jpg",
+  "introProyectos": "Estos son los proyectos en los que he participado hasta la fecha, cada uno de ellos un desafío cumplido.",
+  "proyectos":[
+    {
+    "id":0,
+    "img": "../../../assets/images-proyects/Pokedesk.JPG",
+    "nombre" :"Pokedesk",
+    "descripcion": "Aqui comencé en el mundo de las APIS, con una Pokedesk que invoca habilidades, tipo y movimientos.",
+    "link": ""
+    },
+    {
+    "id":1,
+    "img": "../../../assets/images-proyects/Calculadora.JPG",
+    "nombre" :"Calculadora",
+    "descripcion": "Una Calculadora que me ayudó con javasCript , implementando funciones de raiz, potencia y resto.",
+    "link": ""
+    }
+  ],
+  "hardSkills":[
+    {
+      "id": "HTML",
+      "porcentaje": 85,
+      "imgHard": "../../../assets/images-hard&soft/logoHTML5.png"
+    },
+    {
+      "id": "CSS",
+      "porcentaje": 85,
+      "imgHard": "../../../assets/images-hard&soft/logoCSS.png"
+    },
+    {
+      "id": "JavaScript",
+      "porcentaje": 85,
+      "imgHard":"../../../assets/images-hard&soft/logoJavaScript.png"
+    },
+    {
+      "id": "GitHub",
+      "porcentaje": 70,
+      "imgHard": "../../../assets/images-hard&soft/logoGitHub.png"
+    },
+    {
+      "id": "NodeJS",
+      "porcentaje": 70,
+      "imgHard": "../../../assets/images-hard&soft/logoNODEJS.png"
+    },
+    {
+      "id": "Photoshop",
+      "porcentaje": 85,
+      "imgHard": "../../../assets/images-hard&soft/logoPhotoshop.png"
+    },
+    {
+      "id": "SonyVegas",
+      "porcentaje": 85,
+      "imgHard": "../../../assets/images-hard&soft/logoSonyVegas.png"
+    },
+    {
+      "id": "Angular",
+      "porcentaje": 70,
+      "imgHard": "../../../assets/images-hard&soft/logoAngular.png"
+    },
+    {
+      "id": "Phyton",
+      "porcentaje": 70,
+      "imgHard": "../../../assets/images-hard&soft/logoPython.png"
+    }
+  ],
+  "softSkills":[
+      {
+        "id": "AprendizajeIndependiente",
+        "porcentaje": 90,
+        "imgSoft": "../../../assets/images-hard&soft/AprendizajeIndependiente.png"
+      },
+      {
+        "id": "Compromiso",
+        "porcentaje": 100,
+        "imgSoft": "../../../assets/images-hard&soft/compromiso.png"
+      },
+      {
+        "id": "TrabajoEnEquipo",
+        "porcentaje": 90,
+        "imgSoft":"../../../assets/images-hard&soft/trabajoEnEquipo.png"
+      },
+      {
+        "id": "Creatividad",
+        "porcentaje": 90,
+        "imgSoft": "../../../assets/images-hard&soft/creatividad.png"
+      },
+      {
+        "id": "Flexibilidad",
+        "porcentaje": 80,
+        "imgSoft": "../../../assets/images-hard&soft/flexibilidad.png"
+      },
+      {
+        "id": "HabilidadesDigitales",
+        "porcentaje": 85,
+        "imgSoft":"../../../assets/images-hard&soft/habilidadesDigital.png"
+      },
+      {
+        "id": "MentalidadDeCrecimiento",
+        "porcentaje": 90,
+        "imgSoft": "../../../assets/images-hard&soft/mentalidadDeCrecimiento.png"
+      },
+      {
+        "id": "PensamientoCrítico",
+        "porcentaje": 80,
+        "imgSoft":"../../../assets/images-hard&soft/pensamientoCritico.png"
+      },
+      {
+      "id": "Resiliencia",
+      "porcentaje": 80,
+      "imgSoft":"../../../assets/images-hard&soft/resiliencia.png"
+      }
+  ],
+  "cursos": [
+    {
+    "id":0,
+    "titulo": "#YO PROGRAMO",
+    "descripcion": "Segunda etapa del plan Argentina programa, dictado por INTI.",
+    "fin": "2023",
+    "img": "../../../assets/images-educacion/LogoArgPrograma.JPG",
+    "certificado": "si"
+    },
+    {
+    "id":1,
+    "titulo": "#SÉ PROGRAMAR",
+    "descripcion": "Primera etapa del plan Argentina programa, dictado por INTI.",
+    "fin": "2022",
+    "img": "../../../assets/images-educacion/LogoArgPrograma.JPG",
+    "certificado": "si"
+    },
+    {
+    "id":2,
+    "titulo": "Desarrollador Phython",
+    "descripcion": "Curso disctado por Edutin",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoEdutin.JPG",
+    "certificado": "no"
+    },
+    {
+    "id":3,
+    "titulo": "JAVA ALGORITHMS AND DATA STRUCTURE",
+    "descripcion": "Curso dictado por freeCodeCamp",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoFreeCodeCamp.JPG",
+    "certificado": "si"
+    },
+    {
+    "id":4,
+    "titulo": "CIBERSEGURIDAD EN EL TRABAJO",
+    "descripcion": "Curso dictado por Google Activate",
+    "fin": "Septiembre 2021",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":5,
+    "titulo": "INTRODUCCION AL DESARROLLO WEB",
+    "descripcion": "Curso dictado por Google Activate",
+    "fin": "Septiembre 2021",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":6,
+    "titulo": "DESARROLO DE APPS MÓVILES",
+    "descripcion": "Curso dictado por Google Activate",
+    "fin": "Agosto 2022",
+    "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
+    "certificado": "si"
+    },
+    {
+    "id":7,
+    "titulo": "EDICIÓN DE VIDEO, PHOTOSHOP , DISEÑO GRÁFICO",
+    "descripcion": "Autodidacta",
+    "fin": "Sin fin",
+    "img": "../../../assets/images-educacion/LogoYoutube.JPG",
+    "certificado": "no"
+    },
+    {
+    "id":8,
+    "titulo": "FOTOGRAFÍA",
+    "descripcion": "Centro Kandisky",
+    "fin": "Diciembre 2013",
+    "img": "/assets/images-educacion/LogoYoutube.JPG",
+    "certificado": "no"
+    },
+    {
+    "id":9,
+    "titulo": "SECRETARIADO EJECUTIVO",
+    "descripcion": "Curso dictado por Fundacion BICA",
+    "fin": "Septiembre 2009",
+    "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
+    "certificado": "si"
+    },     
+    {
+    "id":10,
+    "titulo": "AUXILIAR EN RELACIONES PÚBLICAS",
+    "descripcion": "Curso dictado por Fundacion BICA",
+    "fin": "Abril 2006",
+    "img": "../../../assets/images-educacion/LogoFundacionBica.JPG",
+    "certificado": "si"
+    },     
+    {
+    "id":11,
+    "titulo": "TÉCNICO EN ADMINISTRACIÓN DE EMPRESAS",
+    "descripcion": "Curso dictado por System",
+    "fin": "Diciembre 2005",
+    "img": "../../../assets/images-educacion/LogoSystem.JPG",
+    "certificado": "si"
+    },     
+    {
+    "id":12,
+    "titulo": "Secundario",
+    "descripcion": "Bachiller orientado a la producción de bienes y servicios",
+    "fin": "Diciembre 2009",
+    "img": "../../../assets/images-educacion/LogoMinisterio.jpg",
+    "certificado": "si"
+    }   
+  ],  
+  "experiencias": [
+    {
+    "id":0,
+    "nombre": "Sanando",
+    "descripcion": "Editora de videos de canal propio , tengo al 03/2023 101.000 suscriptores. Corto, edito y resubo videos de Biodesprogramación.",
+    "img": "../../../assets/images-experiencia/LogoSanando.JPG",
+    "puestos":[{
+        "titulo":"Propietaria editora",
+        "desde": "Febrero 2011",
+        "hasta": "Actual"
+      }]
+    },
+    {
+    "id":1,
+    "nombre": "Plot-Vinilos",
+    "descripcion": "Diseño con maquinaria propia calcos, esmerilados a gran escala , vinilos textiles , diseños de remeras, rotulación vehicular y todo lo que tenga que ver con vinilos.",
+    "img": "../../../assets/images-experiencia/LogoPlot.png",
+    "puestos":[{
+        "titulo":"Propietaria y diseñadora",
+        "desde": "Noviembre 2015",
+        "hasta": "Actual"
+    }]
+    },
+    {
+    "id":2,
+    "nombre": "Maria Florencia Gala",
+    "img": "../../../assets/images-experiencia/LogoFloryGala.JPG",
+    "descripcion": "Fotógrafa social y de eventos , manejo de photoshop , manipulacion de imágenes , edición de videos para bandas, quinceaños, familiares, etc.",
+    "puestos":[{
+      "titulo":"Fotógrafa y editora de video",
+      "desde": "Noviembre 2017",
+      "hasta": "Actual"
+    }]
+    },
+    {
+    "id":3,
+    "nombre": "Cencosud",
+    "descripcion": "Desde que ingresé en mi pueblo natal (Marcos Juarez )como cajera para la empresa Cencosud, estuve en la búsqueda de crecimiento.Tuve la posibilidad gracias a mi desempeño de crecer a encargada de caja y posteriormente a supervisora de caja. Luego, me traslade a Córdoba capital donde comencé la carrera de Marketing de la empresa y logré el puesto de asistente de Marketing.",
+    "img": "../../../assets/images-experiencia/LogoCencosud.png",
+    "puestos":[{
+      "titulo":"Analista de Marketing",
+      "desde": "Julio 2016",
+      "hasta": "Octubre 2020 "
+    },
+    {
+      "titulo":"Supervisora de cajas",
+      "desde": "Noviembre 2013",
+      "hasta": "Julio 2016"
+    },{
+      "titulo":"Repósitora y cajera",
+      "desde": "Julio 2011",
+      "hasta": "Noviembre 2013"
+    }
+  ]}
+  ],
+  "acerca": "Hola! soy una programadora en constante evolución y con ganas de encarar día a día nuevos desafíos. Manejo muy bien las frustraciones y las considero parte del camino para encontrar los objetivos. Optimizo recursos, logro objetivos , busco formas de resolver y si no las conozco...las aprendo. Mi objetivo es crecer, evolucionar y disfrutar de cada logro . Espero poder brindarte apoyo en lo que estés buscando y logremos trabajar juntos en nuevos proyectos.",
+  "imgAcerca": "../../../assets/images-home/image-1.jpg",
+  "contacteme":"Contácteme!",
+  "introContacto": "me encantaría trabajar con usted",
+  "telefono":"+54 3472 509569",
+  "mail": "MariaFlorenciaGala8@gmail.com",
+  "ubicacion": "San Martín 1786, Marcos Juárez, Cordoba, Argentina.",
+  "imgError": "../../../assets/error.jpg",
+  "redes":[{
+    "nombre": "twitter",
+    "link":"https://twitter.com/BatallaCordoba"
+    },
+    {
+    "nombre": "facebook",
+    "link":"https://www.facebook.com/FloryCordoba"
+    },
+    {
+    "nombre": "linkedin",
+    "link": "https://www.linkedin.com/in/mariflor/" 
+    },
+    {
+      "nombre":"github",
+      "link": "https://github.com/Flory3508"
+    }]
+}
