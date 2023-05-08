@@ -3,3 +3,15 @@
     justify-content: center;
     padding-top: 5%;
 }
+.nombre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100%;
+    font-family:'Arimo','Bebas','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bolder;
+    color:#212121;
+    text-shadow: 50%;
+    text-shadow: #03c0cd8f 1px 1px 10px;
+    font-weight:-300;
+}

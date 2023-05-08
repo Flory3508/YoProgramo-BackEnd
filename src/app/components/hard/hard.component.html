@@ -1,6 +1,7 @@
 
 <div class="row row-cols-8 center">
     <div class="hard col-sm-6 col-md-6 col-lg-5">
+        <app-dashboard></app-dashboard>
         <h2>HARD  SKILLS</h2>
         <circle-progress class="circle col-xs-6 col-sm-6 col-md-6 col-lg-4" *ngFor= "let hard of hardSkills"
         [radius]="50"
@@ -23,6 +24,7 @@
         </circle-progress >
     </div>
     <div class="soft col-sm-6 col-md-6 col-lg-5 ">
+        <app-dashboard></app-dashboard>
         <h2>SOFT  SKILLS</h2>
         <circle-progress class="circle col-xs-6 col-sm-6 col-md-6 col-lg-4" *ngFor = "let soft of softSkills"
         [backgroundPadding]="0"

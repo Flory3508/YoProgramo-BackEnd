@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit{
   apellido: string = '';
   titulo: string = ''; 
   introduccion: string = '';
-  imgHome: any;
+  imgHome: string = '';
 
   infoPorfolio: any;
 
