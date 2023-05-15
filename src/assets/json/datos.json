@@ -3,7 +3,7 @@
   "apellido": "Gala",
   "titulo": "Full Stack Development",
   "introduccion": "Éste es mi portfolio,aquí encontrarás mis proyectos , información personal y de contacto, espero que lo disfrutes",
-  "imgHome":"../../../assets/images-home/image-1.jpg",
+  "imgHome":"./assets/images-home/image-1.jpg",
   "introProyectos": "Estos son los proyectos en los que he participado hasta la fecha, cada uno de ellos un desafío cumplido.",
   "proyectos":[
     {
@@ -45,7 +45,7 @@
     {
       "id": "NodeJS",
       "porcentaje": 70,
-      "imgHard": "../../../assets/images-hard&soft/logoNODEJS.png"
+      "imgHard": "  "
     },
     {
       "id": "Photoshop",
@@ -168,7 +168,7 @@
     "id":6,
     "titulo": "DESARROLO DE APPS MÓVILES",
     "descripcion": "Curso dictado por Google Activate",
-    "fin": "Agosto 2022",
+    "fin": "Agosto 2021",
     "img": "../../../assets/images-educacion/LogoGoogleActivate.jpg",
     "certificado": "si"
     },
@@ -270,7 +270,7 @@
       "desde": "Noviembre 2013",
       "hasta": "Julio 2016"
     },{
-      "titulo":"Repósitora y cajera",
+      "titulo":"Repositora y cajera",
       "desde": "Julio 2011",
       "hasta": "Noviembre 2013"
     }
@@ -301,3 +301,12 @@
       "link": "https://github.com/Flory3508"
     }]
 }
+
+INSERT INTO experiencia
+VALUES (1,'Sanando','Editora de videos de canal propio , tengo al 03/2023 101.000 suscriptores. Corto, edito y resubo videos de Biodesprogramación.',
+    '../../../assets/images-experiencia/LogoSanando.JPG',1,1)
+INSERT INTO curso
+VALUES (2,'Plot-Vinilos','Diseño con maquinaria propia calcos, esmerilados a gran escala , vinilos textiles , diseños de remeras, rotulación vehicular y todo lo que tenga que ver con vinilos.',
+    '../../../assets/images-experiencia/LogoPlot.png',1,2)
+VALUES (3,'Maria Florencia Gala','Fotógrafa social y de eventos , manejo de photoshop , manipulacion de imágenes , edición de videos para bandas, quinceaños, familiares, etc.',
+    '../../../assets/images-experiencia/LogoFloryGala.JPG',1,3)

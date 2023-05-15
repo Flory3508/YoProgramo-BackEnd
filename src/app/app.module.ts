@@ -25,7 +25,6 @@ import { ErrorComponent } from './components/error/error.component';
 import { PokedeskComponent } from './components/misproyectos/pokedesk/pokedesk.component';
 import { LogInComponent } from './components/header/login/log-in/log-in.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { AgregarEmpleadoComponent } from './components/agregar-empleado/agregar-empleado.component';
 
 
 
@@ -50,9 +49,6 @@ import { AgregarEmpleadoComponent } from './components/agregar-empleado/agregar-
     PokedeskComponent,
     LogInComponent,
     DashboardComponent,
-    AgregarEmpleadoComponent,
-
-
   ],
   imports: [
     AppRoutingModule,
